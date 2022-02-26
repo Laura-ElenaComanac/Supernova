@@ -10,7 +10,8 @@ import java.util.*;
 public class ArrayTaskList extends TaskList{
 
     private Task[] tasks;
-    private int numberOfTasks;
+//    private int numberOfTasks;
+    private int numberOfTasks = 0;
     private int currentCapacity;
     private static final Logger log = Logger.getLogger(ArrayTaskList.class.getName());
     private class ArrayTaskListIterator implements Iterator<Task> {
@@ -53,7 +54,8 @@ public class ArrayTaskList extends TaskList{
 
     @Override
     public void add(Task task){
-        if (task.equals(null)) throw new NullPointerException("Task shouldn't be null");
+        //if (task.equals(null)) throw new NullPointerException("Task shouldn't be null");
+        if (task == null) throw new NullPointerException("Task shouldn't be null");
         if (numberOfTasks == currentCapacity-1){
             currentCapacity = currentCapacity * 2;
             Task[] withAddedTask = new Task[currentCapacity];

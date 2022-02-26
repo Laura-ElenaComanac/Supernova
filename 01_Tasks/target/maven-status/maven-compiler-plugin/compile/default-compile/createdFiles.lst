@@ -1,11 +1,11 @@
 tasks\controller\Notificator.class
 tasks\model\ArrayTaskList.class
 tasks\model\LinkedTaskList.class
+tasks\controller\TaskController.class
 tasks\services\TaskIO.class
 tasks\view\Main.class
 tasks\controller\NewEditController.class
 tasks\services\DateService.class
-tasks\controller\Controller.class
 tasks\controller\TaskInfoController.class
 tasks\model\TaskList.class
 tasks\model\ArrayTaskList$1.class

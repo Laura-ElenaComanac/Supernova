@@ -50,7 +50,7 @@ public class LinkedTaskList  extends TaskList {
         numberOfTasks++;
         Node lastNode = last;
         Node newNode = new Node(task, lastNode);
-        if (last!= null) last.setNext(newNode);
+        if (last!= null) last.setNextTask(newNode);
         last = newNode;
     }
     @Override
@@ -61,16 +61,16 @@ public class LinkedTaskList  extends TaskList {
         }
 
         Node cursor = last;
-        if (last.getTask().equals(task)) this.last = last.getLast();
+        if (last.getTask().equals(task)) this.last = last.getLastTask();
         int tasksToCheck = size();
         while (tasksToCheck > 0 && !task.equals(cursor.getTask())){
-            cursor = cursor.getLast();
+            cursor = cursor.getLastTask();
             tasksToCheck--;
         }
         if (isNull(cursor)) return false;
 
-        if (cursor.last!= null) cursor.getLast().setNext(cursor.getNext());
-        if (cursor.next!= null) cursor.getNext().setLast(cursor.getLast());
+        if (cursor.lastTask != null) cursor.getLastTask().setNextTask(cursor.getNextTask());
+        if (cursor.nextTask != null) cursor.getNextTask().setLastTask(cursor.getLastTask());
 
         numberOfTasks--;
         return true;
@@ -89,7 +89,7 @@ public class LinkedTaskList  extends TaskList {
         int stepsBack = size()-index-1;
         Node current = last;
         while (stepsBack > 0){
-            current = current.getLast();
+            current = current.getLastTask();
             stepsBack--;
         }
         return current.getTask();
@@ -110,36 +110,36 @@ public class LinkedTaskList  extends TaskList {
 
     private static class Node {
         private Task task;
-        private Node last;
-        private Node next;
+        private Node lastTask;
+        private Node nextTask;
 
-        private Node getNext() {
-            return next;
+        private Node getNextTask() {
+            return nextTask;
         }
 
-        private void setNext(Node next) {
-            this.next = next;
+        private void setNextTask(Node nextTask) {
+            this.nextTask = nextTask;
         }
 
         private Node(Task task, Node last) {
             this.task = task;
-            this.last = last;
+            this.lastTask = last;
         }
 
         private Task getTask() {
             return task;
         }
 
-        private Node getLast() {
-            return last;
+        private Node getLastTask() {
+            return lastTask;
         }
 
         private void setTask(Task task) {
             this.task = task;
         }
 
-        private void setLast(Node last) {
-            this.last = last;
+        private void setLastTask(Node lastTask) {
+            this.lastTask = lastTask;
         }
     }
 

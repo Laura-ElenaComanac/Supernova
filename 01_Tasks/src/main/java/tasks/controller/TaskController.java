@@ -72,7 +72,7 @@ public class TaskController {
     @FXML
     public void initialize(){
         log.info("Main controller initializing");
-        columnTitle.setCellValueFactory(new PropertyValueFactory<>("title"));
+        columnTitle.setCellValueFactory(new PropertyValueFactory<>("description"));
         columnTime.setCellValueFactory(new PropertyValueFactory<>("formattedDateStart"));
         columnRepeated.setCellValueFactory(new PropertyValueFactory<>("formattedRepeated"));
     }
