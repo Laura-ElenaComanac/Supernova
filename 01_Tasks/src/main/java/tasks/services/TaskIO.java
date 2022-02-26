@@ -21,12 +21,12 @@ public class TaskIO {
 
     private static final Logger log = Logger.getLogger(TaskIO.class.getName());
     public static void write(TaskList tasks, OutputStream out) throws IOException {
-        DataOutputStream dataOutputStream = new DataOutputStream(out);
-        try {
+        //DataOutputStream dataOutputStream = new DataOutputStream(out);
+        try (DataOutputStream dataOutputStream = new DataOutputStream(out)){
             dataOutputStream.writeInt(tasks.size());
             for (Task t : tasks){
-                dataOutputStream.writeInt(t.getTitle().length());
-                dataOutputStream.writeUTF(t.getTitle());
+                dataOutputStream.writeInt(t.getDescription().length());
+                dataOutputStream.writeUTF(t.getDescription());
                 dataOutputStream.writeBoolean(t.isActive());
                 dataOutputStream.writeInt(t.getRepeatInterval());
                 if (t.isRepeated()){
@@ -38,9 +38,9 @@ public class TaskIO {
                 }
             }
         }
-        finally {
-            dataOutputStream.close();
-        }
+//        finally {
+//            dataOutputStream.close();
+//        }
     }
     public static void read(TaskList tasks, InputStream in)throws IOException {
         DataInputStream dataInputStream = new DataInputStream(in);
@@ -177,8 +177,8 @@ public class TaskIO {
         int[] timeEntities = new int[]{days, hours, minutes, seconds};
         int i = 0, j = timeEntities.length-1;// positions of timeEntities available
         while (i != 1 && j != 1) {
-            if (timeEntities[i] == 0) i++;
-            if (timeEntities[j] == 0) j--;
+            if (timeEntities[i] == 0) { i++;}
+            if (timeEntities[j] == 0) { j--;}
         }
 
         String[] numAndTextValues = trimmed.split(" "); //{"46", "minutes", "40", "seconds"};
@@ -241,7 +241,7 @@ public class TaskIO {
     ////service methods for writing
     private static String getFormattedTask(Task task){
         StringBuilder result = new StringBuilder();
-        String title = task.getTitle();
+        String title = task.getDescription();
         if (title.contains("\"")) title = title.replace("\"","\"\"");
         result.append("\"").append(title).append("\"");
 

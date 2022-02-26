@@ -24,8 +24,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Controller {
-    private static final Logger log = Logger.getLogger(Controller.class.getName());
+public class TaskController {
+    private static final Logger log = Logger.getLogger(TaskController.class.getName());
     public ObservableList<Task> tasksList;
     TasksService service;
     DateService dateService;

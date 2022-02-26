@@ -23,8 +23,8 @@ public class TaskInfoController {
     @FXML
     public void initialize(){
         log.info("task info window initializing");
-        Task currentTask = (Task)Controller.mainTable.getSelectionModel().getSelectedItem();
-        labelTitle.setText("Title: " + currentTask.getTitle());
+        Task currentTask = (Task) TaskController.mainTable.getSelectionModel().getSelectedItem();
+        labelTitle.setText("Title: " + currentTask.getDescription());
         labelStart.setText("Start time: " + currentTask.getFormattedDateStart());
         labelEnd.setText("End time: " + currentTask.getFormattedDateEnd());
         labelInterval.setText("Interval: " + currentTask.getFormattedRepeated());
@@ -32,7 +32,7 @@ public class TaskInfoController {
     }
     @FXML
     public void closeWindow(){
-        Controller.infoStage.close();
+        TaskController.infoStage.close();
     }
 
 }

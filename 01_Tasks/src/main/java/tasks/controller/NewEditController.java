@@ -105,7 +105,7 @@ public class NewEditController {
 
     private void initEditWindow(String title){
         currentStage.setTitle(title);
-        fieldTitle.setText(currentTask.getTitle());
+        fieldTitle.setText(currentTask.getDescription());
         datePickerStart.setValue(dateService.getLocalDateValueFromDate(currentTask.getStartTime()));
         txtFieldTimeStart.setText(dateService.getTimeOfTheDayFromDate(currentTask.getStartTime()));
 
@@ -158,11 +158,11 @@ public class NewEditController {
             currentTask = null;
         }
         TaskIO.rewriteFile(tasksList);
-        Controller.editNewStage.close();
+        TaskController.editNewStage.close();
     }
     @FXML
     public void closeDialogWindow(){
-        Controller.editNewStage.close();
+        TaskController.editNewStage.close();
     }
 
     private Task collectFieldsData(){
