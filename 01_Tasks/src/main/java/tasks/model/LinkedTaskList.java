@@ -46,12 +46,13 @@ public class LinkedTaskList  extends TaskList {
     private Node last;
 
     @Override
-    public void add(Task task) {
+    public Task add(Task task) {
         numberOfTasks++;
         Node lastNode = last;
         Node newNode = new Node(task, lastNode);
         if (last!= null) last.setNextTask(newNode);
         last = newNode;
+        return task;
     }
     @Override
     public boolean remove(Task task) {

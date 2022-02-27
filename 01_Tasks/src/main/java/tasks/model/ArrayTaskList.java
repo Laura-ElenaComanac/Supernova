@@ -53,7 +53,7 @@ public class ArrayTaskList extends TaskList{
     }
 
     @Override
-    public void add(Task task){
+    public Task add(Task task){
         //if (task.equals(null)) throw new NullPointerException("Task shouldn't be null");
         if (task == null) throw new NullPointerException("Task shouldn't be null");
         if (numberOfTasks == currentCapacity-1){
@@ -64,6 +64,7 @@ public class ArrayTaskList extends TaskList{
         }
         this.tasks[numberOfTasks] = task;
         this.numberOfTasks++;
+        return task;
     }
     @Override
     public boolean remove(Task task){
