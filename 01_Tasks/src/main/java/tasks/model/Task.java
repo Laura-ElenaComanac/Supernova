@@ -58,6 +58,8 @@ public class Task implements Serializable, Cloneable {
         return this.active;
     }
 
+
+
     public void setActive(boolean active){
         this.active = active;
     }

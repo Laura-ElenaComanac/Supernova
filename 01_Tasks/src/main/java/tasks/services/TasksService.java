@@ -6,6 +6,9 @@ import tasks.model.ArrayTaskList;
 import tasks.model.Task;
 import tasks.model.TasksOperations;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class TasksService {
@@ -54,5 +57,19 @@ public class TasksService {
         //Iterable<Task> filtered = tasks.incoming(start, end);
 
         return filtered;
+    }
+
+    public void addTask(String description, Date startTime, Date endTime, boolean active,
+                        int repeatInterval) {
+
+        if(description.equals("") || description.length()<1 || description.length()>20)
+            throw new IllegalArgumentException("Invalid description");
+        String[] splittedTime = startTime.toString().split(" ");
+        int year = Integer.parseInt(splittedTime[splittedTime.length-1]);
+        if(year < 2020 || year > 2022 )
+            throw new IllegalArgumentException("Invalid start year");
+        Task task = new Task(description, startTime,endTime, repeatInterval);
+        task.setActive(active);
+        tasks.add(task);
     }
 }
