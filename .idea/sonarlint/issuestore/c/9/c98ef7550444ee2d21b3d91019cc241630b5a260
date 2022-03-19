@@ -1,0 +1,55 @@
+
+_
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(¢Ñû¦ûÿÿÿÿ
+Z
+java:S1120$"DMake this line start after 4 spaces to indent the code consistently.(Ğ¼â‹
+Z
+java:S1120&"DMake this line start after 6 spaces to indent the code consistently.(¶³¡–
+_
+java:S1120)"DMake this line start after 6 spaces to indent the code consistently.(µŠÎûÿÿÿÿÿ
+_
+java:S11207"DMake this line start after 6 spaces to indent the code consistently.(€ÉÔ…ıÿÿÿÿ
+[
+java:S1120;"EMake this line start after 14 spaces to indent the code consistently.(¯á
+_
+java:S1120A"DMake this line start after 4 spaces to indent the code consistently.(±Š¢øÿÿÿÿ
+Z
+java:S1213"?Move this static variable to comply with Java Code Conventions.(ı¢°Øşÿÿÿÿ
+U
+java:S1213"?Move this static variable to comply with Java Code Conventions.(¼Çü¦
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù‰ï…
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğÕÈ€
+X
+java:S3032"=Use "Thread.currentThread().getContextClassLoader()" instead.(ı¢°Øşÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(é±¨ãÿÿÿÿÿ
+d
+java:S11076"IMove this "catch" on the same line that the previous closing curly brace.(©œ¡ÿÿÿÿÿ
+Q	java:S125+"<This block of commented-out lines of code should be removed.(€â³Ö
+B
+java:S1602:",Remove useless curly braces around statement(çöÔˆ
+.
+java:S2211:"Specify a type for: 'we'(çöÔˆ
+V
+java:S1312"@Rename the "log" logger to comply with the format "LOG(?:GER)?".(şêâÊ
+@
+java:S11666"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ
+s
+java:S1104"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ
+p
+java:S1104"ZMake savedTasksFile a static final constant or non-public and provide accessors if needed.(¼Çü¦
+M
+java:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ
+J
+java:S1444"4Make this "public static savedTasksFile" field final(¼Çü¦
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ì®¯
+W
+java:S1106""AMove this left curly brace to the beginning of next line of code.(Ïã‚¤
+V
+java:S1106%"AMove this left curly brace to the beginning of next line of code.(óÂÚR
+\
+java:S1106("AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ
+\
+java:S11066"AMove this left curly brace to the beginning of next line of code.(©œ¡ÿÿÿÿÿ
+W
+java:S1106@"AMove this left curly brace to the beginning of next line of code.(Çµí‘
