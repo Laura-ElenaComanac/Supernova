@@ -158,8 +158,13 @@ public class NewEditController {
             currentTask = null;
         }
         TaskIO.rewriteFile(tasksList);
+        service.addTask(collectedFieldsTask.getDescription(),collectedFieldsTask.getStartTime(),
+                collectedFieldsTask.getEndTime(),collectedFieldsTask.isActive(),
+                collectedFieldsTask.getRepeatInterval());
         TaskController.editNewStage.close();
     }
+
+
     @FXML
     public void closeDialogWindow(){
         TaskController.editNewStage.close();
