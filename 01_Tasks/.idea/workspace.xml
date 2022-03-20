@@ -23,11 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe79f98-8ba9-4627-a3ca-7e0c8d7562fb" name="Default Changelist" comment="initial version">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/task-manager-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/task-manager-log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" afterDir="false" />
@@ -54,7 +49,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/TasksService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/services/TasksService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tasks/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/view/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
->>>>>>> 1721a70ea951b406560e78689cd729b1df97e554
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,14 +319,9 @@
       <workItem from="1645862653085" duration="239000" />
       <workItem from="1645862910889" duration="10876000" />
       <workItem from="1645902009594" duration="5302000" />
-<<<<<<< HEAD
-      <workItem from="1646591076224" duration="1198000" />
-      <workItem from="1646718421808" duration="302000" />
-=======
       <workItem from="1646651732832" duration="616000" />
       <workItem from="1646824542947" duration="15000" />
       <workItem from="1647682814559" duration="13075000" />
->>>>>>> 1721a70ea951b406560e78689cd729b1df97e554
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1613577157958</created>

@@ -1,0 +1,40 @@
+
+_
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(¸çÙ×úÿÿÿÿ
+Z
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ÜŒˆ’
+_
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(–İĞÔøÿÿÿÿ
+_
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(Ô¥“²ùÿÿÿÿ
+Z
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ñ¤‘ù
+Z
+java:S1120("DMake this line start after 4 spaces to indent the code consistently.(Ç—³±
+4
+java:S1451"&Add or update the header of this file.
+e	java:S103"KSplit this 130 characters long line (which is greater than 120 authorized).(áÜéªûÿÿÿÿ
+e	java:S103 "KSplit this 126 characters long line (which is greater than 120 authorized).(—íùÿÿÿÿ
+P	java:S139"6Move this trailing comment on the previous empty line.(©—ÈÉüÿÿÿÿ
+K	java:S139"6Move this trailing comment on the previous empty line.(„„ş˜
+n	java:S122 "TAt most one statement is allowed per line, but 2 statements were found on this line.(—íùÿÿÿÿ
+P	java:S139"6Move this trailing comment on the previous empty line.(áÜéªûÿÿÿÿ
+.	java:S121 "Missing curly brace.(—íùÿÿÿÿ
+T
+java:S3252!">Use static access with "java.util.Calendar" for "getInstance".(Ç—³±
+K	java:S139'"6Move this trailing comment on the previous empty line.(¼Ê
+T
+java:S3252(">Use static access with "java.util.Calendar" for "getInstance".(Ç—³±
+W
+java:S1106
+"AMove this left curly brace to the beginning of next line of code.(à¹ŠŒ
+V
+java:S1106"AMove this left curly brace to the beginning of next line of code.(æø†g
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(©—ÈÉüÿÿÿÿ
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(„„ş˜
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(áÜéªûÿÿÿÿ
+W
+java:S1106'"AMove this left curly brace to the beginning of next line of code.(¼Ê
