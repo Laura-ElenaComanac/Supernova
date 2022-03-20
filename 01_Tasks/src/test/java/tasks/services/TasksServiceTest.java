@@ -36,7 +36,7 @@ class TasksServiceTest {
 
     @ParameterizedTest
     @Tag("Valid")
-    @ValueSource(strings = { "description1", "descr", "desc" })
+    @ValueSource(strings = { "description1", "descr", "desc", "d" })
     @DisplayName("Add task valid description BVA Min")
     void addTaskValidDescription_BVA_Min(String description) {
         //Arrange

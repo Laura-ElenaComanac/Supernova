@@ -136,13 +136,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,8 +255,8 @@
       <item itemvalue="JUnit.tasks.model in Tasks" />
       <item itemvalue="JUnit.TaskTest.testTaskCreation" />
       <item itemvalue="JUnit.TaskTest" />
-      <item itemvalue="Maven.Tasks [exec:java]" />
       <item itemvalue="JUnit.TasksServiceTest" />
+      <item itemvalue="Maven.Tasks [exec:java]" />
     </list>
     <recent_temporary>
       <list>
