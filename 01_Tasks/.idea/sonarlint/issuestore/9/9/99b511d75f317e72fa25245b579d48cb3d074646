@@ -1,21 +1,0 @@
-
-_
-java:S1120"DMake this line start after 2 spaces to indent the code consistently.(âÔ½øşÿÿÿÿ
-_
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ÀÖàûÿÿÿÿ
-_
-java:S1120#"DMake this line start after 4 spaces to indent the code consistently.(èì Áÿÿÿÿÿ
-4
-java:S1451"&Add or update the header of this file.
-U
-java:S1258	":Add a constructor to the class, or provide default values.(×Ş‚…ùÿÿÿÿ
-]
-java:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(¢®•×
-[
-java:S1312"@Rename the "log" logger to comply with the format "LOG(?:GER)?".(âÔ½øşÿÿÿÿ
-c
-java:S1106	"AMove this left curly brace to the beginning of next line of code.(×Ş‚…ùÿÿÿÿ8×—²Œú/
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(·òşÿÿÿÿ8Ø—²Œú/
-^
-java:S1106""AMove this left curly brace to the beginning of next line of code.(áªÿ€8Ø—²Œú/

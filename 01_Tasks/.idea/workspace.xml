@@ -23,32 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe79f98-8ba9-4627-a3ca-7e0c8d7562fb" name="Default Changelist" comment="initial version">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/2127c9319138fd1533fdab6621df84da2f371893" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d63de46d8ec7dacaab386b187106455df813537" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99b511d75f317e72fa25245b579d48cb3d074646" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/task-manager-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/task-manager-log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TasksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TasksService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/tasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/NewEditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/controller/NewEditController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/Notificator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/controller/Notificator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/controller/TaskController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/TaskInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/controller/TaskInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/ArrayTaskList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/ArrayTaskList$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/ArrayTaskList$ArrayTaskListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/ArrayTaskList$ArrayTaskListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/ArrayTaskList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/ArrayTaskList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList$LinkedTaskListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList$LinkedTaskListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/LinkedTaskList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/TaskList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/TaskList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/TasksOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/TasksOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/DateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/services/DateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/TaskIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/services/TaskIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/TasksService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/services/TasksService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/view/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab01/RequirementsTasks_v2.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab01/RequirementsTasks_v2.0.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +91,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.155" />
     <property name="project.structure.side.proportion" value="0.25462964" />
-    <property name="settings.editor.selected.configurable" value="sonarlint" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -132,19 +113,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -324,6 +292,9 @@
       <workItem from="1646651732832" duration="616000" />
       <workItem from="1646824542947" duration="15000" />
       <workItem from="1647682814559" duration="13075000" />
+      <workItem from="1647779977309" duration="694000" />
+      <workItem from="1647860023941" duration="1624000" />
+      <workItem from="1648804203470" duration="5343000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1613577157958</created>
@@ -373,22 +344,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="527" y="40" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1647685890612" />
-    <state width="1481" height="300" key="GridCell.Tab.0.bottom" timestamp="1647696047131">
+    <state width="1481" height="300" key="GridCell.Tab.0.bottom" timestamp="1647862808220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647696047131" />
-    <state width="1481" height="300" key="GridCell.Tab.0.center" timestamp="1647696047130">
+    <state width="1481" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647862808220" />
+    <state width="1481" height="300" key="GridCell.Tab.0.center" timestamp="1647862808220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="300" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1647696047130" />
-    <state width="1481" height="300" key="GridCell.Tab.0.left" timestamp="1647696047130">
+    <state width="1481" height="300" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1647862808220" />
+    <state width="1481" height="300" key="GridCell.Tab.0.left" timestamp="1647862808220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="300" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1647696047130" />
-    <state width="1481" height="300" key="GridCell.Tab.0.right" timestamp="1647696047131">
+    <state width="1481" height="300" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1647862808220" />
+    <state width="1481" height="300" key="GridCell.Tab.0.right" timestamp="1647862808220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="300" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1647696047131" />
+    <state width="1481" height="300" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1647862808220" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1648806034932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="160" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1648806034932" />
     <state x="485" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1647688692423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

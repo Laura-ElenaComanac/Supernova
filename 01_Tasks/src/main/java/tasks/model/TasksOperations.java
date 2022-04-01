@@ -14,15 +14,23 @@ public class TasksOperations {
     }
 
     public Iterable<Task> incoming(Date start, Date end){
+        if(start == null || end == null)
+            throw new IllegalArgumentException("Start and end date can't be null");
         System.out.println(start);
         System.out.println(end);
         ArrayList<Task> incomingTasks = new ArrayList<>();
-        for (Task t : tasks) {
-            Date nextTime = t.nextTimeAfter(start);
+        int size = tasks.size();
+        int i = 0;
+        while(i < size){
+            Date nextTime = tasks.get(i).nextTimeAfter(start);
             if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
-                incomingTasks.add(t);
-                System.out.println(t.getDescription());
+                incomingTasks.add(tasks.get(i));
+                System.out.println(tasks.get(i).getDescription());
             }
+            i++;
+        }
+        if (i == 0){
+            System.out.println("No tasks between this dates");
         }
         return incomingTasks;
     }
