@@ -1,0 +1,23 @@
+
+9
+	Tasks.iml,e\4\e4a1f17f000c14a51c1b4832557db4be154b6363
+_
+/src/main/java/tasks/controller/Notificator.java,9\0\90f3d1b886ea9e6023b322a07a34e807fd489693
+\
+,src/main/java/tasks/model/ArrayTaskList.java,f\7\f77a2442ed82eb8b7386f5c9a49162f894ad8a61
+]
+-src/main/java/tasks/services/DateService.java,b\a\ba27869b1e0ea8fe162ea3b4618a07816f29da05
+R
+"src/main/java/tasks/view/Main.java,a\4\a4e952c1a4765c6cf9a337826a42d32c3f95db7f
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+X
+(src/main/java/tasks/services/TaskIO.java,2\6\26c7ae39591499fab3685c25bb4834dc2fc7cf24
+S
+#src/main/java/tasks/model/Task.java,6\6\665dec39384a747ccf12fd544bf02f4a3d18695a
+^
+.src/main/java/tasks/services/TasksService.java,7\d\7d63de46d8ec7dacaab386b187106455df813537
+b
+2src/test/java/tasks/services/TasksServiceTest.java,1\e\1ed2e4afe6f0e30a24669299239d591463d36916
+^
+.src/main/java/tasks/model/TasksOperations.java,4\f\4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1

@@ -1,0 +1,39 @@
+
+_
+java:S1120	"DMake this line start after 2 spaces to indent the code consistently.(±ø¢Èûÿÿÿÿ
+_
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(›şÎÄşÿÿÿÿ
+Z
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(©Î¢ª
+_
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(Ää¤şÿÿÿÿ
+_
+java:S1120"DMake this line start after 8 spaces to indent the code consistently.(ã™ç±øÿÿÿÿ
+Z
+java:S1120!"DMake this line start after 6 spaces to indent the code consistently.(õ¨³Ñ
+4
+java:S1451"&Add or update the header of this file.
+D
+java:S2208".Explicitly import the specific classes needed.(Î€ŒÙ
+)	java:S121"Missing curly brace.(©Î¢ª
+S	java:S106"9Replace this use of System.out or System.err by a logger.(÷ºâÿÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ãšİêùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶—²¢ıÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(õ¨³Ñ
+]	java:S125&"<This block of commented-out lines of code should be removed.(‘“¥¦şÿÿÿÿ8î…ôüş/
+€
+java:S1319	"eThe type of "tasks" should be an interface such as "List" rather than the implementation "ArrayList".(±ø¢Èûÿÿÿÿ
+l
+java:S1104	"QMake tasks a static final constant or non-public and provide accessors if needed.(±ø¢Èûÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(–äÒˆøÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÚÃçÙøÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ú¯î¸úÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ù™†³ÿÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Ã­Ãÿÿÿÿÿ
+\
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(·Š•ğüÿÿÿÿ

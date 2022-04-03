@@ -104,3 +104,8 @@
 2022-03-19 12:52:50 INFO  NewEditController:91 - new/edit window initializing
 2022-03-19 12:53:11 INFO  NewEditController:91 - new/edit window initializing
 2022-03-19 12:53:33 ERROR Task:40 - interval < than 1
+2022-04-03 14:37:47 INFO  Main:36 - saved data reading
+2022-04-03 14:37:47 INFO  Main:41 - application start
+2022-04-03 14:45:53 INFO  Main:36 - saved data reading
+2022-04-03 14:45:53 INFO  Main:41 - application start
+2022-04-03 14:45:54 INFO  TaskController:74 - Main controller initializing

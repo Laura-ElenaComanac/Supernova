@@ -47,6 +47,7 @@ public class Task implements Serializable, Cloneable {
         this.time = start;
     }
 
+
     public String getDescription() {
         return description;
     }
