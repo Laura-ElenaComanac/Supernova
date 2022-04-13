@@ -72,4 +72,8 @@ public class TasksService {
         task.setActive(active);
         tasks.add(task);
     }
+
+    public int size(){
+        return tasks.size();
+    }
 }

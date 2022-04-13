@@ -5,6 +5,7 @@ import javafx.collections.ObservableList;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+import org.mockito.Mockito;
 import tasks.model.ArrayTaskList;
 import tasks.model.Task;
 import tasks.model.TasksOperations;
@@ -19,9 +20,11 @@ import java.util.List;
 import java.util.stream.StreamSupport;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.withSettings;
 
 @DisplayNameGeneration(value = DisplayNameGenerator.ReplaceUnderscores.class)
-class TasksServiceTest {
+class TaskServiceTest {
 
     private Task task;
     private Date start,end;
@@ -30,7 +33,9 @@ class TasksServiceTest {
     private int interval;
 
     private TasksService tasksService;
+    private TasksService tasksServiceMock;
     private ArrayTaskList taskList;
+    private ArrayTaskList taskListMock;
     private SimpleDateFormat sdf;
     private TasksOperations tasksOperations;
     private ObservableList<Task> tasks =  FXCollections.observableArrayList();
@@ -38,11 +43,56 @@ class TasksServiceTest {
 
     @BeforeEach
     void setUp() {
+        taskListMock = mock(ArrayTaskList.class);
         taskList = new ArrayTaskList();
         tasksService = new TasksService(taskList);
+        tasksServiceMock = mock(TasksService.class,withSettings().useConstructor(taskListMock));
         sdf = new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss.SSS]");
         tasksOperations = new TasksOperations(tasks);
     }
+
+    @Test
+    void addTaskValid() {
+
+        //Arrange
+        try {
+            descr = "description";
+            start =  sdf.parse("[2022-02-30 12:00:00.000]");
+            end =  sdf.parse("[2022-02-30 12:00:00.000]");
+            activ = true;
+            interval = 2;
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        //Act
+        Mockito.doNothing().when(tasksServiceMock).addTask(descr,start,end,activ,interval);
+
+        //Assert
+        Mockito.when(tasksServiceMock.size()).thenReturn(1);
+    }
+
+    @Test
+    void addTaskNonValid() {
+
+        //Arrange
+        try {
+            descr = "";
+            start =  sdf.parse("[2022-02-30 12:00:00.000]");
+            end =  sdf.parse("[2022-02-30 12:00:00.000]");
+            activ = true;
+            interval = 2;
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+       Mockito.doThrow(IllegalArgumentException.class).when(tasksServiceMock).addTask(descr,start,end,activ,interval);
+        Mockito.when(tasksServiceMock.size()).thenReturn(0);
+    }
+
+
+
+
 
     @ParameterizedTest
     @Tag("Valid")
@@ -302,6 +352,7 @@ class TasksServiceTest {
         }
 
         //Act and Assert
+        //assertIterableEquals();
         assertEquals(0,StreamSupport.stream(resultedTasks.spliterator(), false)
                 .count());
     }
