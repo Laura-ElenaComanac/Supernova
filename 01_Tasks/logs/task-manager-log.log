@@ -113,3 +113,4 @@
 2022-04-03 16:38:26 INFO  Main:41 - application start
 2022-04-03 16:38:27 INFO  TaskController:74 - Main controller initializing
 2022-04-13 12:05:49 ERROR Task:40 - interval < than 1
+2022-04-13 14:49:44 ERROR Task:40 - interval < than 1

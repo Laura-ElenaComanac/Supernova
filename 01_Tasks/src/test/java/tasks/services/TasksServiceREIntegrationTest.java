@@ -1,23 +1,18 @@
 package tasks.services;
 
-
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 import tasks.model.ArrayTaskList;
 import tasks.model.Task;
-import tasks.model.TasksOperations;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.Mockito.mock;
 
-public class TasksServiceRepoIntegrationTest {
-
+public class TasksServiceREIntegrationTest {
 
     private TasksService tasksService;
     private ArrayTaskList tasksRepo;
@@ -26,7 +21,6 @@ public class TasksServiceRepoIntegrationTest {
 
     @BeforeEach
     void setUp() {
-
         tasksRepo = new ArrayTaskList();
         tasksService = new TasksService(tasksRepo);
         sdf = new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss.SSS]");
@@ -35,7 +29,14 @@ public class TasksServiceRepoIntegrationTest {
     @Test
     void addTaskValid(){
 
-        task = mock(Task.class);
+        try {
+            task = new Task("new task",Task.getDateFormat().parse("2022-02-12 10:10"),
+                    Task.getDateFormat().parse("2022-04-12 10:10"),2);
+            task.setActive(true);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
         tasksRepo.add(task);
         assertEquals(1,tasksRepo.size());
         assertEquals(1,tasksService.size());
@@ -53,17 +54,26 @@ public class TasksServiceRepoIntegrationTest {
     @Test
     void addTaskNonValid(){
 
-        task = mock(Task.class);
+        try {
+            task = new Task("new task",Task.getDateFormat().parse("2022-02-12 10:10"),
+                    Task.getDateFormat().parse("2022-04-12 10:10"),2);
+            task.setActive(true);
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
         tasksRepo.add(task);
         assertEquals(1,tasksRepo.size());
         assertEquals(1,tasksService.size());
 
         assertThrows(IllegalArgumentException.class,
-                    () -> tasksService.addTask("",sdf.parse("[2022-02-30 12:00:00.000]"),
-                    sdf.parse("[2022-02-30 12:00:00.000]"),true,2));
+                () -> tasksService.addTask("",sdf.parse("[2022-02-30 12:00:00.000]"),
+                        sdf.parse("[2022-02-30 12:00:00.000]"),true,2));
         assertEquals(1, tasksRepo.size());
         assertEquals(1,tasksService.size());
     }
+
 
 
 }
