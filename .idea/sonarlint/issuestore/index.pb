@@ -1,29 +1,5 @@
 
 9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-[
-+01_Tasks/src/main/java/tasks/view/Main.java,c/9/c98ef7550444ee2d21b3d91019cc241630b5a260
-a
-101_Tasks/src/main/java/tasks/services/TaskIO.java,2/f/2f5c38d4a3ce1bf47458567833b31584f201eb8a
-f
-601_Tasks/src/main/java/tasks/services/DateService.java,6/d/6d4df87d325f8c62e3120ad4f3442d900d4817ef
-f
-601_Tasks/src/main/java/tasks/model/LinkedTaskList.java,6/6/66778a9ccdecf0c1f4b1cdc12a6228e838b7bb0c
-o
-?01_Tasks/src/main/java/tasks/controller/TaskInfoController.java,5/2/527a04a077108b5d967164c82ceeb8cbd9b8583e
-k
-;01_Tasks/src/main/java/tasks/controller/TaskController.java,3/0/30aa0e0ba3474c27914b04020230c378036d90a7
-h
-801_Tasks/src/main/java/tasks/controller/Notificator.java,1/0/10eea001a74f9c7c67b68304546c3c2105300636
-e
-501_Tasks/src/main/java/tasks/model/ArrayTaskList.java,f/d/fd3e6e8decfc3e35245c4a1ca902313b0f306236
-`
-001_Tasks/src/main/java/tasks/model/TaskList.java,7/9/79a45650d4ea57e88aa828efb2765fd1f7502316
-g
-701_Tasks/src/main/java/tasks/model/TasksOperations.java,d/1/d1dd47ae9a8372b364da55385ff9cba3ac85f4ee
-n
->01_Tasks/src/main/java/tasks/controller/NewEditController.java,c/c/ccaa8fc2c0a70f23287e65816b2331517039f8e2
-\
-,01_Tasks/src/main/java/tasks/model/Task.java,5/7/57f6a6d148092624846e4cfc1b3e95d8b35a15ba
-@
-01_Tasks/pom.xml,6/d/6d66db31bd350ada9a2ef4080fdfe5ee8efa974c
+	Tasks.iml,e\4\e4a1f17f000c14a51c1b4832557db4be154b6363
+X
+(src/main/java/tasks/services/TaskIO.java,2\6\26c7ae39591499fab3685c25bb4834dc2fc7cf24
