@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Supernova.iml" filepath="$PROJECT_DIR$/.idea/Supernova.iml" />
-      <module fileurl="file://$PROJECT_DIR$/01_Tasks/Tasks.iml" filepath="$PROJECT_DIR$/01_Tasks/Tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tasks.iml" filepath="$PROJECT_DIR$/Tasks.iml" />
     </modules>
   </component>
 </project>
